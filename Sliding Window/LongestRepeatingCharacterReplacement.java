@@ -1,7 +1,7 @@
 // Leetcode -> https://leetcode.com/problems/longest-repeating-character-replacement/description/
 
 import java.util.*;
-class Main {
+class LongestRepeatingCharacterReplacement {
     public static void main(String[] args) {
         String s="AABABBA";
         int k = 1;
