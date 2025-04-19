@@ -35,6 +35,31 @@ class Main {
         return node;
     }
 
+    // insertAtPos
+    public Node insertAt(int pos,int i){
+        Node node=new Node(i);
+        if(pos==1){
+            node.next=head;
+            head=node;
+            return node;
+        }
+        
+        Node temp=head;
+        int cur=1;
+        while(temp!=null && pos<cur-1){
+            temp=temp.next;
+            cur++;
+        }
+        if(temp==null){
+            System.out.println("Invalid");
+        }
+        
+        
+        node.next=temp.next;
+        temp.next=node;
+        return node;
+    }
+
     // print
     public void print(){
         Node temp=head;
