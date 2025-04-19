@@ -9,12 +9,33 @@ class Node{
 
 class Main {
     Node head;
+
+    // Insert at Beginning
     public Node insert(int i){
         Node node=new Node(i);
         node.next=head;
         head=node;
         return node;
     }
+
+    // Insert at End
+    public Node insertEnd(int i){
+        Node node=new Node(i);
+        
+        if(head==null){
+            head=node;
+            return node;
+        }
+        
+        Node temp=head;
+        while(temp.next!=null){
+            temp=temp.next;
+        }
+        temp.next=node;
+        return node;
+    }
+
+    // print
     public void print(){
         Node temp=head;
         while(temp!=null){
