@@ -60,6 +60,22 @@ class Main {
         return node;
     }
 
+    // reverseNode
+    public Node reverse(){
+        
+        Node prev=null;
+        Node curr=head;
+        Node next=null;
+        
+        while(curr!=null){
+            next=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+        }
+        return head=prev;
+    }
+
     // print
     public void print(){
         Node temp=head;
@@ -68,7 +84,8 @@ class Main {
             temp = temp.next;
         }
         System.out.println("null");
-        }
+       }
+
     public static void main(String[] args) {
         Main mn=new Main();
         for(int i=1;i<6;i++){
