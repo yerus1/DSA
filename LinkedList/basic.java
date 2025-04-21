@@ -60,6 +60,17 @@ class Main {
         return head;
     }
 
+    // Delete At Last
+    public Node deleteAtLast(){
+        Node temp=head;
+        
+        while(temp.next.next!=null)
+            temp=temp.next;
+            
+        temp.next=null;
+        return head;
+    }
+
     // reverseNode
     public Node reverse(){
         
