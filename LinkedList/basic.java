@@ -33,7 +33,7 @@ class Main {
         return temp.next=node;
     }
 
-    // insertAtPos
+    // Insert at Position
     public Node insertAtPos(int pos,int p){
         Node node=new Node(p);
         
@@ -52,6 +52,12 @@ class Main {
         node.next=temp.next;
         return temp.next=node;
         
+    }
+
+    // Delete At Beginning 
+    public Node deleteAtBeg(){
+        head=head.next;
+        return head;
     }
 
     // reverseNode
