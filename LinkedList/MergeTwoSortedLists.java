@@ -37,6 +37,7 @@ class Main {
        System.out.println("null"); 
     }
     
+    // merge-two-sorted
     public static Node mergeList(Node head1,Node head2){
         if (head1 == null) return head2;
         if (head2 == null) return head1;

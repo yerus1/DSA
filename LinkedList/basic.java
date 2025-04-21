@@ -1,4 +1,5 @@
 class Node{
+    
     int data;
     Node next;
     Node(int data){
@@ -11,33 +12,31 @@ class Main {
     Node head;
 
     // Insert at Beginning
-    public Node insert(int i){
+    public Node inserAtBeg(int i){
         Node node=new Node(i);
         node.next=head;
-        head=node;
-        return node;
+        return head=node;
     }
 
     // Insert at End
-    public Node insertEnd(int i){
+    public Node insertAtEnd(int i){
         Node node=new Node(i);
         
         if(head==null){
-            head=node;
-            return node;
+            return head=node;
         }
         
         Node temp=head;
         while(temp.next!=null){
             temp=temp.next;
         }
-        temp.next=node;
-        return node;
+        return temp.next=node;
     }
 
     // insertAtPos
-    public Node insertAt(int pos,int i){
-        Node node=new Node(i);
+    public Node insertAtPos(int pos,int p){
+        Node node=new Node(p);
+        
         if(pos==1){
             node.next=head;
             head=node;
@@ -45,19 +44,14 @@ class Main {
         }
         
         Node temp=head;
-        int cur=1;
-        while(temp!=null && pos<cur-1){
+        for(int i=2;i<pos;i++){
             temp=temp.next;
-            cur++;
+            if(temp.next==null) return null;
         }
-        if(temp==null){
-            System.out.println("Invalid");
-        }
-        
         
         node.next=temp.next;
-        temp.next=node;
-        return node;
+        return temp.next=node;
+        
     }
 
     // reverseNode
@@ -79,14 +73,16 @@ class Main {
     // print
     public void print(){
         Node temp=head;
+        
         while(temp!=null){
             System.out.print(temp.data+"->");
-            temp = temp.next;
+            temp=temp.next;
         }
         System.out.println("null");
-       }
+      }
 
-    public static void main(String[] args) {
+    
+      public static void main(String[] args) {
         Main mn=new Main();
         for(int i=1;i<6;i++){
             mn.insert(i);
