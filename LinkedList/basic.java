@@ -71,7 +71,26 @@ class Main {
         return head;
     }
 
-    // reverseNode
+    // Delete at Position
+    public Node deleteAtPos(int p){
+        if(p==1){
+            head=head.next;
+            return head;
+        }
+        Node temp=head;
+        for(int i=2;i<p && temp.next!=null ;i++){
+            temp=temp.next;
+        }
+        
+        if(temp.next==null) return null;
+        
+        Node nodeToDelete=temp.next;
+        Node nextNode=nodeToDelete.next;
+        
+        return temp.next=nextNode;
+    }
+
+    // ReverseNode
     public Node reverse(){
         
         Node prev=null;
@@ -87,7 +106,7 @@ class Main {
         return head=prev;
     }
 
-    // print
+    // Print
     public void print(){
         Node temp=head;
         
