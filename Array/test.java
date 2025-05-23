@@ -1,19 +1,14 @@
 package Array;
 
-import java.util.HashMap;
+import java.util.HashSet;
 
 public class test {
     public static void main(String[] args) {
-        int[] nums={2,7,11,15};
-        int target=9;
-        HashMap<Integer,Integer> map=new HashMap<>();
-        for(int i=0;i<nums.length;i++){
-            map.put(nums[i],i);
-        }
-        for(int j=0;j<nums.length;j++){
-            int sum=target-nums[j];
-            if(map.containsKey(sum)){
-                System.out.println(j+""+map.get(sum));
+        int arr[]={1,1,1,3,3,4,3,2,4,2};
+        HashSet<Integer> set = new HashSet<>();
+        for (int n : arr) {
+            if (set.add(n)) {
+                System.out.println(false);
             }
         }
     }
