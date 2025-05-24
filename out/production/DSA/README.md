@@ -1,4 +1,4 @@
-# 📚 DSA Problems and My Solutions
+# DSA Problems and My Solutions📚
 
  **Data Structures and Algorithms (DSA)** repository!
 
