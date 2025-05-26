@@ -3,14 +3,13 @@ package TwoPointer;
 public class RemoveElement {
 
     public static int removeElement(int[] nums, int val) {
-        int n = nums.length;
-        int in = 0;
-        for (int i = 0; i < n; i++) {
-            if (nums[i] != val) {
-                nums[in++] = nums[i];
-            }
+        int left =0;
+        int right=nums.length;
+        int count=0;
+        while(left<right){
+
         }
-        return in;
+        return 0;
     }
 
     public static void main(String[] args) {
