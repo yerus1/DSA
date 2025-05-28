@@ -13,7 +13,7 @@ public class InventoryService {
     public StockLevel updateStock(String productId, int change) {
         Product product = productRepo.findById(productId).orElseThrow();
         product.adjustStock(change);
-        productRepo.save(product);
+        productRepo.save(product);as
         return product.getStockLevel();
     }
 }
