@@ -1,7 +1,8 @@
 # Data Structures and Algorithms
+
 A personal initiative to sharpen problem-solving skills, strengthen core understanding of data structures and algorithms, and prepare for coding interviews and top-tier software engineering roles. This repository documents thought processes, key learnings, and optimizations as part of a continuous growth journey
 
-Technologies: [Java]
+Technologies: [Java,Postgresql,Python]
 
 ```java
 @Service
