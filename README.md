@@ -1,6 +1,7 @@
-# Code
-```java []
-@Service
+const projectsData = Project[] = [
+  {
+codeSnippet: 
+`@Service
 public class InventoryService {
     @Autowired
     private ProductRepository productRepo;
@@ -16,10 +17,11 @@ public class InventoryService {
       // Logger.info("Stock updated...");
       return product.getStockLevel();
     }
-}
-```
+}`
 
-# Technologies:[Java,React,Spring boot,SQL]
+Technologies:[Java,React,Spring boot,SQL]
+}
+];
 
 
 # DSA Problems and My Solutions📚
