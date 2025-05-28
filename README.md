@@ -1,5 +1,5 @@
 # Data Structures and Algorithms
-Spring Boot starter project for hands-on REST API practice
+A personal initiative to sharpen problem-solving skills, strengthen core understanding of data structures and algorithms, and prepare for coding interviews and top-tier software engineering roles. This repository documents thought processes, key learnings, and optimizations as part of a continuous growth journey
 
 Technologies: [Java, Spring Boot, React, SQL]
 
@@ -18,18 +18,5 @@ public class InventoryService {
     }
 }
 ```
-----
-
-
-# DSA Problems and My Solutions📚
-
- **Data Structures and Algorithms (DSA)** repository!
-
-This project is a personal initiative to:
-- Sharpen my problem-solving skills.
-- Build a strong foundation in data structures and algorithms.
-- Prepare for coding interviews and high-impact software engineering roles.
-- Document my thought process, learnings, and optimizations along the way.
-
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/neo124?theme=dark&font=Noto%20Serif%20Bengali&ext=activity)
