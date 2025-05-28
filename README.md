@@ -1,9 +1,13 @@
-# Data Structures and Algorithms
+# Project Name
+DSA & ALGI
 
-A personal initiative to sharpen problem-solving skills, strengthen core understanding of data structures and algorithms, and prepare for coding interviews and top-tier software engineering roles. This repository documents thought processes, key learnings, and optimizations as part of a continuous growth journey
+## Description
+This project is a personal initiative to enhance my problem-solving skills, build a strong foundation in data structures and algorithms, and prepare for coding interviews and high-impact software engineering roles. Along the way, I document my thought process, key learnings, and performance optimizations to track progress and reinforce continuous improvement
 
-Technologies: [Java,Postgresql,Python]
+## Technologies
+[Java, Spring Boot, SQL, React]
 
+## Code Snippet
 ```java
 @Service
 public class InventoryService {
@@ -20,4 +24,4 @@ public class InventoryService {
 }
 ```
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/neo124?theme=dark&font=Noto%20Serif%20Bengali&ext=activity)
+
