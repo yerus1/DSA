@@ -2,7 +2,7 @@
 DSA & ALGI
 
 ## Description
-This project is a personal initiative to enhance my problem-solving skills, build a strong foundation in data structures and algorithms, and prepare for coding interviews and high-impact software engineering roles. Along the way, I document my thought process, key learnings, and performance optimizations to track progress and reinforce continuous improvement
+Core logic for inventory management within an ERP, ensuring stock accuracy via transactional updates and real-time data integration with product repositories.
 
 ## Technologies
 [Java, Spring Boot, SQL, React]
