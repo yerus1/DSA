@@ -1,5 +1,5 @@
 # Project Name
-DSA & ALGI
+Data Structures and Algorithms
 
 ## Description
 Core logic for inventory management within an ERP, ensuring stock accuracy via transactional updates and real-time data integration with product repositories.Core logic for inventory management within an ERP, ensuring stock accuracy via transactional updates and real-time data integration with product repositories.Core logic for inventory management within an ERP, ensuring stock accuracy via transactional updates and real-time data integration with product repositories.
