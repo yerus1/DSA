@@ -2,7 +2,7 @@
 Data Structures and Algorithms
 
 ## Description
-Core logic for inventory management within an ERP, ensuring stock accuracy via transactional updates and real-time data integration with product repositories.Core logic for inventory management within an ERP, ensuring stock accuracy via transactional updates and real-time data integration with product repositories.Core logic for inventory management within an ERP, ensuring stock accuracy via transactional updates and real-time data integration with product repositories.
+This Repository acts as the backbone for a DSA Progress Tracker or coding preparation. It retrieves structured data about the developer’s focus areas, algorithms, and data structure expertise, and integrates with a repository to fetch real-time progress statistics such as the number of problems solved
 
 ## Technologies
 [Arrays,Binary Search, Dynamic Programming, HashMap,Linked List]
