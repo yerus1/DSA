@@ -1,5 +1,5 @@
 # Project Name
-Data Structures and Algorithms
+Data Structures and Algorithm
 
 ## Description
 This Repository acts as the backbone for a DSA Progress Tracker or coding preparation. It retrieves structured data about the developer’s focus areas, algorithms, and data structure expertise, and integrates with a repository to fetch real-time progress statistics such as the number of problems solved
