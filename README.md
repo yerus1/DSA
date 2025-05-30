@@ -34,7 +34,7 @@ public class DsaService {
 }
 ```
 
-```java
+```javacode
 @Service
 public class DsaService {
   private final List<String> dataStructures = Arrays.asList(
