@@ -34,4 +34,14 @@ public class DsaService {
 }
 ```
 
+```java
+@Service
+public class DsaService {
+  private final List<String> dataStructures = Arrays.asList(
+    "Arrays", "Linked List", "Stack", "Queue", "HashMap",
+          "Tree", "Graph");
 
+  private final List<String> algorithms = Arrays.asList(
+    "Binary Search", "DFS", "BFS", "Dijkstra", "Merge Sort",
+            "Quick Sort", "Dynamic Programming");
+```
