@@ -4,7 +4,7 @@ Data Structures and Algorithm
 ## Description
 This repository serves as the backbone for a DSA Progress Tracker or coding preparation platform. It retrieves structured data about the developer focus areas, algorithms, and data structure expertise, and integrates with the service layer to provide real-time progress statistics such as the number of problems solved.
 
-```Technologies
+```Technologie
 Java
 Spring Boot
 PostgreSQL
