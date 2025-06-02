@@ -8,7 +8,7 @@ List
 Stack
 
 
-```technologies
+```tech
 Surendar
 Java
 Elastic Search
