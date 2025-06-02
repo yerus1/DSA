@@ -1,6 +1,12 @@
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/neo124?theme=dark&font=Niramit&ext=activity)
 
+Graph
+Stack
+Queue
+List
+Stack
+
 
 ```Technologies
 Java
