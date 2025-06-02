@@ -1,3 +1,6 @@
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/neo124?theme=light&font=Niramit)
+
 ```Technologies
 Java
 Arrays
