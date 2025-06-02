@@ -8,7 +8,7 @@ List
 Stack
 
 
-```tech1
+```python
 Surendar
 Java
 Elastic Search
