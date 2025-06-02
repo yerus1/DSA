@@ -2,8 +2,9 @@
 ![LeetCode Stats](https://leetcard.jacoblin.cool/neo124?theme=dark&font=Niramit&ext=activity)
 
 
-```Technologies1
+```Technologies
 Java
+Elastic Search
 Arrays
 HashMap
 Linked List
