@@ -8,10 +8,8 @@ List
 Stack
 
 
-```python
-Surendar
+```Technologies
 Java
-Elastic Search
 Arrays
 HashMap
 Linked List
