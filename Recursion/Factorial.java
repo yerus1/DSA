@@ -1,16 +1,13 @@
 package Recursion;
 
 public class Factorial {
-    static int sum=1;
-    public static void factorial(int n){
-        if(n==0){
-            return;
+    public static int factorial(int n){
+        if(n==1){
+            return 1;
         }
-        factorial(n-1);
-        sum=sum*n;
-        System.out.println(sum);
+        return n*factorial(n-1);
     }
     public static void main(String[] args) {
-        factorial(5);
+        System.out.print(factorial(5));
     }
 }
