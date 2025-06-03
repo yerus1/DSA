@@ -1,4 +1,4 @@
-package TwoPointer;
+package TwoPointer.Leetcode;
 
 public class FirstOccurrenceString {
 
