@@ -1,8 +1,8 @@
-# 📚 DSA Problems and My Solutions
+# DSA Problems and Solutions
 
 Welcome to my **Data Structures and Algorithms (DSA)** repository!
 
-This project is a personal initiative to:
+This repository is a personal initiative to:
 - Sharpen my problem-solving skills.
 - Build a strong foundation in data structures and algorithms.
 - Prepare for coding interviews and high-impact software engineering roles.
@@ -10,7 +10,7 @@ This project is a personal initiative to:
 
 ---
 
-## 🧠 What You'll Find Here
+##  What You'll Find Here
 - **Handpicked DSA Problems** across topics like Linked Lists, Trees, Graphs, Arrays, Dynamic Programming, and more.
 - **My Original Solutions** coded in Java.
 - **Detailed Explanations** of logic and approach.
@@ -20,7 +20,7 @@ This project is a personal initiative to:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - **Language:** Java (Primary)
 - **IDE:** IntelliJ IDEA / Eclipse
 - **Version Control:** Git
@@ -28,7 +28,7 @@ This project is a personal initiative to:
 
 ---
 
-## 🧩 Topics Covered
+##  Topics Covered
 - Arrays and Strings
 - Linked Lists
 - Stacks and Queues
@@ -43,18 +43,7 @@ This project is a personal initiative to:
 
 ---
 
-## 🚀 How I Solve Each Problem
-For each problem:
-1. **Understand** the problem requirements and constraints.
-2. **Plan** a strategy or multiple strategies.
-3. **Implement** a clean, efficient solution.
-4. **Analyze** the time and space complexities.
-5. **Reflect** on mistakes and possible improvements.
-6. **Optimize** wherever possible.
-
----
-
-## 📈 Future Vision
+##  Future Vision
 - Solve 500+ problems across all major platforms (LeetCode, HackerRank, Codeforces, GFG, etc.).
 - Create pattern-based categorization (like sliding window, two pointers, binary search on answer, etc.).
 - Build a searchable solution base (future automation: tagging + indexing).
@@ -63,7 +52,7 @@ For each problem:
 
 ---
 
-## 🌟 Why This Matters
+##  Why This Matters
 In the coming years, **problem-solving ability** will be even more critical with the rise of:
 - AI-assisted development (developers who understand problems deeply will lead).
 - Competitive product engineering.
