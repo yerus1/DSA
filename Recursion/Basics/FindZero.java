@@ -18,7 +18,7 @@ public class FindZero {
     }
 
     public static void main(String[] args) {
-        System.out.println(findZero(302102));
+        System.out.println(findZero(30210002));
     }
 
 }
