@@ -24,8 +24,7 @@ public class FindElement {
     public static void main(String[] args) {
         int[] arr = {1, 2, 5, 8, 18, 20, 18};
         int target = 18;
-        List<Integer> list = new ArrayList<>();
         System.out.println(findElement(arr, target));
-        System.out.println(findElement(arr, target, 0, list));
+        System.out.println(findElement(arr, target, 0, new ArrayList<>()));
     }
 }
