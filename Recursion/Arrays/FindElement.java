@@ -15,16 +15,17 @@ public class FindElement {
         return helper(arr, target, n + 1);
     }
 
-    static List<Integer> findElement(int[] arr, int target, int index,List<Integer> list){
-        if(index==arr.length) return list;
-        if(arr[index]==target) list.add(arr[index]);
-        return findElement(arr, target, index+1, list);
+    static List<Integer> findElement(int[] arr, int target, int index, List<Integer> list) {
+        if (index == arr.length) return list;
+        if (arr[index] == target) list.add(arr[index]);
+        return findElement(arr, target, index + 1, list);
     }
+
     public static void main(String[] args) {
         int[] arr = {1, 2, 5, 8, 18, 20, 18};
         int target = 18;
         List<Integer> list = new ArrayList<>();
         System.out.println(findElement(arr, target));
-        System.out.println(findElement(arr,target,0, list));
+        System.out.println(findElement(arr, target, 0, list));
     }
 }
