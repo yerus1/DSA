@@ -21,19 +21,20 @@ public class FindElement {
         return findElement(arr, target, index + 1, list);
     }
 
-    static ArrayList<Integer> findElement(int[] arr,int target,int index){
-        ArrayList<Integer> list=new ArrayList<>();
-        if(index==arr.length) return list;
-        if(arr[index]==target) list.add(index);
-        ArrayList<Integer> ansFromBelowFunc=findElement(arr,target,index+1);
+    static ArrayList<Integer> findElement(int[] arr, int target, int index) {
+        ArrayList<Integer> list = new ArrayList<>();
+        if (index == arr.length) return list;
+        if (arr[index] == target) list.add(index);
+        ArrayList<Integer> ansFromBelowFunc = findElement(arr, target, index + 1);
         list.addAll(ansFromBelowFunc);
         return list;
     }
+
     public static void main(String[] args) {
         int[] arr = {1, 2, 5, 8, 18, 20, 18};
         int target = 18;
         System.out.println(findElement(arr, target));
         System.out.println(findElement(arr, target, 0, new ArrayList<>()));
-        System.out.println(findElement(arr,target,0));
+        System.out.println(findElement(arr, target, 0));
     }
 }
