@@ -17,7 +17,7 @@ public class FindElement {
 
     static List<Integer> findElement(int[] arr, int target, int index, List<Integer> list) {
         if (index == arr.length) return list;
-        if (arr[index] == target) list.add(arr[index]);
+        if (arr[index] == target) list.add(index);
         return findElement(arr, target, index + 1, list);
     }
 
